@@ -1,0 +1,10 @@
+#Convertendo medidas
+medida = float(input('Digite o comprimento em metros: '))
+dcm = (medida * 10)
+cm = (medida * 100)
+mm = (medida * 1000)
+dam = (medida / 10)
+hm = (medida / 100)
+km = (medida / 1000)
+print('A medida de {}m vale {}dcm, {}cm e {}mm'.format(medida, dcm, cm, mm))
+print('A medida de {}m vale {}dam, {}hm e {}km'.format(medida, dam, hm, km))
